@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80ad7e0c9eb10447ba4d2eeed6c3819, type: 3}
+  m_Name: P Item 001 Shield
+  m_EditorClassIdentifier: 
+  title: Shield
+  selectionSprite: {fileID: 21300000, guid: e992b93fe596bfc42a15d9297cd17f6f, type: 3}
+  inGameSprite: {fileID: 21300000, guid: e992b93fe596bfc42a15d9297cd17f6f, type: 3}
+  description: Gain a shield which will defend you from damage for 5 seconds
+  sound: {fileID: 8300000, guid: 79f79d07667a04f49ba8e03094c3eecd, type: 3}
+  inGamePrefab: {fileID: 3736747609152652925, guid: a8d68fe3fd76b604cac9060cc7b54453, type: 3}
+  price: 10
+  lifetimeSeconds: 5
+  targetsSelf: 0
+  targetsWho: 0
+  type: 1
+  spawnLocation: 0
+  extraSpawnedObjects: []

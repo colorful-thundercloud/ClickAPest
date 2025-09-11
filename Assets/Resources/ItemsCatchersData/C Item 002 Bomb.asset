@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80ad7e0c9eb10447ba4d2eeed6c3819, type: 3}
+  m_Name: C Item 002 Bomb
+  m_EditorClassIdentifier: 
+  title: Bomb
+  selectionSprite: {fileID: 21300000, guid: 83384c1b61503a942a28bd5f19f76334, type: 3}
+  inGameSprite: {fileID: 21300000, guid: 83384c1b61503a942a28bd5f19f76334, type: 3}
+  description: Send 'em flying!
+  sound: {fileID: 8300000, guid: e9b34429d018067458ec3023f3486589, type: 3}
+  inGamePrefab: {fileID: 8784970057751053242, guid: cf0b3506ea4a7b24eb1b9057073039e4, type: 3}
+  price: 100
+  lifetimeSeconds: 5
+  targetsSelf: 0
+  targetsWho: 0
+  type: 0
+  spawnLocation: 0
+  extraSpawnedObjects: []
