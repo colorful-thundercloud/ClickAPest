@@ -193,6 +193,7 @@ public class Lobby : MonoBehaviourPunCallbacks
 
     public void MaxPlayerClearInput()
     {
+        if (maxPlayers.text == "") maxPlayers.text = "5";
         maxPlayers.text = Regex.Replace(maxPlayers.text, @"[^0-9]", "");
         if (int.Parse(maxPlayers.text) > 20) maxPlayers.text = "20";
         else if (int.Parse(maxPlayers.text) < 5) maxPlayers.text = "5";
